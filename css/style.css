@@ -4,13 +4,19 @@
 }
 /* body  */
 body {
-  background: lightgrey;
+  background: #f6f8f9;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* body  */
 
 /* common  */
 
+hr {
+  background-color: #f6f8f9;
+  border-top: #f6f8f9;
+  border-left: #f6f8f9;
+}
 /* common  */
 
 /* header  */
@@ -27,10 +33,46 @@ header img {
 }
 
 header h1 {
-  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   display: inline-block;
   line-height: 80px;
   vertical-align: middle;
 }
 /* header  */
+
+/* main  */
+
+main {
+  width: 80%;
+  height: 700px;
+  background-color: white;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+/* main  */
+
+/* bottoni task  */
+
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.task {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+
+.add-task {
+  background-color: #47adf1;
+  color: white;
+}
+
+.add-section {
+  border: 1px solid #d4d8dc;
+  color: #d4d8dc;
+}
